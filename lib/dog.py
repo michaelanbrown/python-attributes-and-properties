@@ -18,3 +18,6 @@ class Dog:
 
     def get_name(self):
         return self._name
+    
+    def set_name(self, name):
+        
