@@ -39,3 +39,5 @@ class Person:
             self._job = job
         else:
             print("Job must be in list of approved jobs.")
+
+    job = property(get_job, set_job)
