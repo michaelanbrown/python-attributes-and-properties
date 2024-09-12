@@ -21,5 +21,5 @@ class Dog:
     
     def set_name(self, name):
         if isinstance(name, str) and 1 <= len(name) <= 25:
-        self._name = name
+            self._name = name
 
