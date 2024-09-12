@@ -32,4 +32,4 @@ class Person:
     name = property(get_name, set_name)
 
     def get_job(self):
-        
+        return self._job
