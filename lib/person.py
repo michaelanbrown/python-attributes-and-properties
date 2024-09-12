@@ -21,4 +21,4 @@ class Person:
         self.job = job
 
     def get_name(self):
-        
+        return self._name
