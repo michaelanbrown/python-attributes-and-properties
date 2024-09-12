@@ -16,6 +16,6 @@ APPROVED_JOBS = [
 ]
 
 class Person:
-    def __init__(self, name, job):
+    def __init__(self, name='J. Doe', job):
         self.name = name
         self.job = job
