@@ -33,3 +33,6 @@ class Person:
 
     def get_job(self):
         return self._job
+    
+    def set_job(self, job):
+        
