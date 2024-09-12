@@ -35,4 +35,5 @@ class Person:
         return self._job
     
     def set_job(self, job):
-        
+        if job in APPROVED_JOBS:
+            self._job = job
