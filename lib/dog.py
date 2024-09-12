@@ -17,3 +17,4 @@ class Dog:
         self.breed = breed
 
     def get_name(self):
+        return self._name
