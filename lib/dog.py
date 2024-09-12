@@ -32,3 +32,5 @@ class Dog:
             self._breed = breed
         else:
             print("Breed must be in list of approved breeds.")
+
+    breed = property(get_breed, set_breed)
