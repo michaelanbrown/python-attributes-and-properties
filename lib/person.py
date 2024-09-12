@@ -19,3 +19,6 @@ class Person:
     def __init__(self, name='J. Doe', job='Sales'):
         self.name = name
         self.job = job
+
+    def get_name(self):
+        
