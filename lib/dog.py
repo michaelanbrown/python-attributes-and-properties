@@ -24,3 +24,5 @@ class Dog:
             self._name = name
         else:
             print("Name must be string between 1 and 25 characters.")
+
+    name = property(get_name, set_name)
