@@ -30,3 +30,6 @@ class Person:
             print("Name must be string between 1 and 25 characters.")
 
     name = property(get_name, set_name)
+
+    def get_job(self):
+        
