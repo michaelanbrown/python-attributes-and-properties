@@ -12,4 +12,5 @@ APPROVED_BREEDS = [
 ]
 
 class Dog:
-    pass
+    def __init__(self, name):
+        
