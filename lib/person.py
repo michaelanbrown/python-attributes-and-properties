@@ -37,3 +37,5 @@ class Person:
     def set_job(self, job):
         if job in APPROVED_JOBS:
             self._job = job
+        else:
+            print("Job must be in list of approved jobs.")
