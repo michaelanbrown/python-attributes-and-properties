@@ -28,4 +28,5 @@ class Dog:
     name = property(get_name, set_name)
 
     def set_breed(self, breed);
-        
+        if breed in APPROVED_BREEDS:
+            self._breed = breed
